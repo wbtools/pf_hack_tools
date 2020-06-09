@@ -21,8 +21,8 @@ function banner()
                                 
 	[+] Autor: PFinal南丞
 	[+] Data: 2020/6/9
-	[+] Name: pf_posts_sacn
-	[+] Ajuda: ports_canner.php -h
+	[+] Name: pf_posts_scan
+	[+] Ajuda: pf_posts_scan.php -h
 ";
 }
 
@@ -33,9 +33,9 @@ OPTIONS[-i, -p, -h]
   -p    要扫描的目标端口
   -h    帮助信息
  exemplos:
-   ports_canner.php -i 127.0.0.1 
-   ports_canner.php -i 127.0.0.1 -p 80
-   ports_canner.php -h
+   pf_posts_scan.php -i 127.0.0.1 
+   pf_posts_scan.php -i 127.0.0.1 -p 80
+   pf_posts_scan.php -h
 \n";
 }
 $ports = [21, 22, 23, 80, 8080, 443, 3306, 3389];
